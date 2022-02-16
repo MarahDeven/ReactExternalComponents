@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ReactAnimatedWeather from "react-animated-weather";
 
 import "./App.css";
 
@@ -15,6 +16,12 @@ function App() {
           https://www.npmjs.com/package/react-animated-weather
         </a>
       </p>
+      <ReactAnimatedWeather
+        icon="CLEAR_DAY"
+        color="goldenrod"
+        size={48}
+        animate={true}
+      />
 
       <br />
       <h3>Challenge 2</h3>
