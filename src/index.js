@@ -28,6 +28,19 @@ function App() {
       <p>
         Display 3 different icons and change the properties for each of them{" "}
       </p>
+      <ReactAnimatedWeather
+        icon="CLEAR_NIGHT"
+        color="purple"
+        size={66}
+        animate={true}
+      />
+      <ReactAnimatedWeather
+        icon="SLEET"
+        color="aqua"
+        size={77}
+        animate={true}
+      />
+      <ReactAnimatedWeather icon="SNOW" color="gray" size={99} animate={true} />
     </div>
   );
 }
